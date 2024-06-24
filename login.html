@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Registro</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit">Login</button>
+            </form>
+            <a href="redefinir_senha.html">Esqueci minha senha</a>
+            <p>Ainda não tem uma conta? <a href="registro.html">Crie uma agora</a></p>
+        </div>
+        <div class="link-externo">
+            <h3>Faça login com:</h3>
+            <a href="https://accounts.google.com/login"><button class="google-btn">Google</button></a>
+            <a href="https://www.facebook.com/login"><button class="facebook-btn">Facebook</button></a>
+        </div>
+    </div>
+</body>
+</html>
